@@ -22,6 +22,9 @@ class Provider extends Model
         [
             'name' => 'GitHub',
         ],
+        [
+            'name' => 'Pusher',
+        ]
     ];
 
     public function consoles()
