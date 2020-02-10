@@ -34,6 +34,11 @@ class Console extends Model
             'name' => 'GitHub OAuth Apps',
             'url' => 'https://github.com/settings/developers',
             'provider' => 'GitHub',
+        ],
+        [
+            'name' => 'Pusher Dashboard',
+            'url' => 'https://dashboard.pusher.com/',
+            'provider' => 'Pusher',
         ]
     ];
 
